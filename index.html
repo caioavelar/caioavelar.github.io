@@ -75,9 +75,6 @@
                         <div class="card-title">
                             <h3>Meus projetos!</h3>
                         </div>
-                        <div>
-                            <button type="button" onclick="openProjetoCadastro()">Cadastrar novo projeto</button>
-                        </div>
                         <div class="album py-5 bg-light">
                             <div class="container">
                                 <div class="row">
@@ -102,33 +99,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <!-- Modal -->
-                    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="http://localhost:3000/portfolio/projetos/save" method="POST">
-                                        <input type="text" name="titulo" placeholder="Título"/>
-                                        <input type="text" name="textoCompleto" />
-                                        <button type="submit">Salvar</button>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                         </div>
@@ -159,14 +129,7 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
     <script>
-
-        function openProjetoCadastro() {
-            $('#exampleModal').modal();
-
-        }
-
         function openProjetoDetails() {
-            console.log('Teste commit')
             alert('Pendente criação de modal para detalhes do projeto');
         }
     </script>
