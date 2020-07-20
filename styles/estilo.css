@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+#nav-menu .nav li a {
+    height: 50px;
+}
+
+/**Estilo Projetos*/
+
+/*Estilo footer*/
+
+/*Fonte Original: https://get.foundation/building-blocks/blocks/social-footer.html*/
+
+.social-footer {
+    padding: 1rem;
+    background: #8a8a8a;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.social-footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+.social-footer .social-footer-icons li:last-of-type {
+    margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+    font-size: 1.3rem;
+    color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+    color: #4a4a4a;
+    transition: color 0.3s ease-in;
+}
+
+/*Estilos FA ICONS*/
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px !important;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
