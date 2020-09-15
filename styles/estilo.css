@@ -23,6 +23,11 @@ ul {
 
 /**Estilo Projetos*/
 
+.projetos-example > .card {
+    /* min-height: 400px;
+    max-height: 400px; */
+}
+
 /*Estilo footer*/
 
 /*Fonte Original: https://get.foundation/building-blocks/blocks/social-footer.html*/
