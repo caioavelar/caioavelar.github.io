@@ -1,0 +1,15 @@
+.main-footer {
+    height: 30px;
+    padding: 20px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-darkslategray);
+    position: absolute;
+    bottom: 0;
+}
+
+.social-media-links {
+    float: left;
+}
