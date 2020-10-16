@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daea5d8b.chunk.css",
+    "main.js": "/static/js/main.52f3d6e4.chunk.js",
+    "main.js.map": "/static/js/main.52f3d6e4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.67eec890.js",
+    "runtime-main.js.map": "/static/js/runtime-main.67eec890.js.map",
+    "static/css/2.316749da.chunk.css": "/static/css/2.316749da.chunk.css",
+    "static/js/2.924ea8c0.chunk.js": "/static/js/2.924ea8c0.chunk.js",
+    "static/js/2.924ea8c0.chunk.js.map": "/static/js/2.924ea8c0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c7d08123c50951c45217a54b819cb5aa.js": "/precache-manifest.c7d08123c50951c45217a54b819cb5aa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.316749da.chunk.css.map": "/static/css/2.316749da.chunk.css.map",
+    "static/css/main.daea5d8b.chunk.css.map": "/static/css/main.daea5d8b.chunk.css.map",
+    "static/js/2.924ea8c0.chunk.js.LICENSE.txt": "/static/js/2.924ea8c0.chunk.js.LICENSE.txt",
+    "static/media/danielTurismo.jpg": "/static/media/danielTurismo.efad0a09.jpg",
+    "static/media/jobsmart.png": "/static/media/jobsmart.23a27d19.png",
+    "static/media/minions.png": "/static/media/minions.cda8a988.png",
+    "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67eec890.js",
+    "static/css/2.316749da.chunk.css",
+    "static/js/2.924ea8c0.chunk.js",
+    "static/css/main.daea5d8b.chunk.css",
+    "static/js/main.52f3d6e4.chunk.js"
+  ]
+}
