@@ -19,6 +19,7 @@ type Props = {
 const useStyles = makeStyles({
   root: {
     width: 345,
+    margin: 'auto'
   },
 });
 // Retirado do exemplo da documentação.
